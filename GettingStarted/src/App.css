@@ -1,0 +1,90 @@
+.container {
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #eaf7f5;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  box-sizing: border-box;
+  padding: 100px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 3px 8px rgb(0 0 0 / 15%);
+}
+
+.emoji {
+  margin-bottom: 20px;
+  font-size: 70px;
+}
+
+.title {
+  margin: 0 0 15px;
+  color: #234e52;
+  font-size: 32px;
+}
+
+.description {
+  margin: 0 0 25px;
+  color: #5f6f70;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.featureBox {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  padding: 18px;
+  text-align: left;
+  background-color: #f2faf9;
+  border-radius: 15px;
+}
+
+.feature {
+  margin: 7px 0;
+  color: #234e52;
+  font-size: 17px;
+}
+
+.button,
+.startButton {
+  width: 100%;
+  padding: 15px;
+  color: #ffffff;
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #3ba99c;
+}
+
+.startButton {
+  background-color: #234e52;
+}
+
+.buttonText {
+  font-size: 16px;
+}
+
+.backButton {
+  margin-top: 15px;
+  padding: 10px;
+  color: #3ba99c;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  font-weight: bold;
+}
